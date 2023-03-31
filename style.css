@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.grom {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border: 2px solid lightgoldenrodyellow;
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    
+}
+.grom form{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.grom label{
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.grom input, button{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.grom h1{
+    text-align: center;
+    background-color: cadetblue;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.grom h2{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: -20px;
+}
+.grom button{
+    background-color: teal;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.4s all;
+    color: white;
+}
+.grom button:hover{
+    background-color: yellowgreen;
+    color: black;
+    transform: scale(1.04);
+}
